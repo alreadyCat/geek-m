@@ -1,5 +1,5 @@
 // 用于覆盖webpack的配置
-const { override, fixBabelImports, addWebpackAlias, addPostcssPlugins } = require('customize-cra')
+const { override, addWebpackAlias } = require('customize-cra')
 
 // 配置别名
 const path = require('path')
